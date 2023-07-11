@@ -12,6 +12,7 @@ run the `./fonts/build-font-apk.sh` script to get the font overlay `.apk` in `./
 ### on android device:
 
 add font files to `/system/product/fonts/` (.otf or .ttf) 
+
 ```adb push fontfiles/font.ttf /system/product/fonts/font.ttf```
 
 add new section to `/system/product/etc/fonts_customization.xml` with the new font
@@ -22,6 +23,7 @@ adb shell
 ```
 
 copy `./bin/FontNewFontOverlay.apk` to the android device
+
 ```adb push bin/FontNewFontOverlay.apk /system/product/overlay/FontNewFont/FontNewFontOverlay.apk```
 
 The `install-unifont.sh` script automates the steps after building the unifont apk, so that it can be used to quickly re-add
