@@ -22,17 +22,6 @@
     <alias name="rubik-medium" to="rubik" weight="500" />
     <alias name="rubik-bold" to="rubik" weight="700" />
 
-    <family customizationType="new-named-family" name="unifont">
-        <font weight="400" style="normal">unifont.otf</font>
-        <font weight="400" style="italic">unifont.otf</font>
-        <font weight="500" style="normal">unifont.otf</font>
-        <font weight="500" style="italic">unifont.otf</font>
-        <font weight="700" style="normal">unifont.otf</font>
-        <font weight="700" style="italic">unifont.otf</font>
-    </family>
-    <alias name="unifont-medium" to="unifont" weight="500" />
-    <alias name="unifont-bold" to="unifont" weight="700" />
-
     <family customizationType="new-named-family" name="ibmvga">
         <font weight="400" style="normal">ibmvga.ttf</font>
         <font weight="400" style="italic">ibmvga.ttf</font>
